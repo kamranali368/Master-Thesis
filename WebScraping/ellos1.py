@@ -1,4 +1,5 @@
-""".........This file extract all the product page links and fetch each product page data from the target webserver by transversing the entire client website................"""
+""".........This file extract all the product page links and fetch each product page data from the target webserver
+ by transversing the entire client website................"""
 
 import header as h
 import ellos2

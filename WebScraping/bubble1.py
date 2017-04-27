@@ -1,4 +1,5 @@
-""".........This file extract all the product page links and fetch each product page data from the target webserver by transversing the entire Competitor1 website................"""
+""".........This file extract all the product page links and fetch each product page data from the target webserver
+ by transversing the entire Competitor1 website................"""
 
 import bubble2
 import header as h

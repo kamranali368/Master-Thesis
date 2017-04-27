@@ -1,4 +1,5 @@
-"""........This file consist of functions to gets the authrization to access the data from API, construct the request body for the parameters Page URL and SKU .........."""
+"""........This file consist of functions to gets the authrization to access the data from API,
+construct the request body for the parameters Page URL and SKU .........."""
 
 import httplib2
 from apiclient.discovery import build

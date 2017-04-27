@@ -1,5 +1,5 @@
-"""........This file contains all the database queries to retrieve the data from the database and group the data based on a specific parameter
-to perform category, product and brand level analyses.........."""
+"""........This file contains all the database queries to retrieve the data from the database and
+group the data based on a specific parameter to perform category, product and brand level analyses.........."""
 
 import pymysql
 from pandas.io import sql
