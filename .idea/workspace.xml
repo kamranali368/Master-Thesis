@@ -52,209 +52,188 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="boozt1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScraping/boozt1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#183#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ellos1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ellos1.py">
+      <file leaf-file-name="boozt2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScraping/boozt2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#302#2259#0" expanded="false" />
-                <element signature="e#2382#2633#0" expanded="false" />
+                <marker date="1493282546695" expanded="true" signature="2082:2231" ph="INSERT INTO boo_productinfo... " />
+                <marker date="1493282546695" expanded="true" signature="3056:3185" ph="INSERT INTO boo_productcolor... " />
+                <marker date="1493282546695" expanded="true" signature="5287:5370" ph="INSERT INTO boo_productsize... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ellos2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ellos2.py">
+      <file leaf-file-name="apiData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fetching API Data/apiData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#1312#1748#0" expanded="false" />
-                <element signature="e#1997#2443#0" expanded="false" />
-                <element signature="e#2598#4449#0" expanded="false" />
-                <element signature="e#4612#5670#0" expanded="false" />
-                <element signature="e#5798#11277#0" expanded="false" />
-                <marker date="1493203665999" expanded="true" signature="3604:3833" ph="INSERT INTO producttitle... " />
-                <marker date="1493203665999" expanded="true" signature="5153:5350" ph="INSERT INTO productsize2... " />
-                <marker date="1493203665999" expanded="true" signature="7400:7567" ph="INSERT INTO productinfo... " />
-                <marker date="1493203665999" expanded="true" signature="8703:8828" ph="INSERT INTO productcolor... " />
-                <marker date="1493203665999" expanded="true" signature="10980:11075" ph="INSERT INTO productsize... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apiData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apiData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#256#1366#0" expanded="false" />
-                <element signature="e#1411#4873#0" expanded="false" />
-                <element signature="e#4918#6808#0" expanded="false" />
+                <element signature="e#174#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="databaseQuery.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databaseQuery.py">
+        <entry file="file://$PROJECT_DIR$/DatabaseQueries/databaseQuery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="640" column="16" selection-start-line="640" selection-start-column="16" selection-end-line="640" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="e#462#11949#0" expanded="false" />
-                <element signature="e#595#1013#0" expanded="false" />
-                <element signature="e#1309#1787#0" expanded="false" />
-                <element signature="e#2144#2634#0" expanded="false" />
-                <element signature="e#2991#4900#0" expanded="false" />
-                <element signature="e#5278#6819#0" expanded="false" />
-                <element signature="e#7270#8417#0" expanded="false" />
-                <element signature="e#9635#10806#0" expanded="false" />
-                <element signature="e#12029#26211#0" expanded="false" />
-                <element signature="e#26289#27963#0" expanded="false" />
-                <element signature="e#28060#32056#0" expanded="false" />
-                <element signature="e#32089#32360#0" expanded="false" />
-                <marker date="1489134508616" expanded="true" signature="603:650" ph="SELECT categ... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="1317:1418" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="2152:2262" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="3003:3246" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="3082:3246" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="3166:3246" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="3730:3952" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="3809:3952" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="3869:3952" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="4332:4552" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="4411:4552" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="4471:4552" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="5290:5411" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="5800:5921" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="6326:6447" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="7284:7410" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="7884:8009" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="8432:8891" ph="SELECT o.cat... productinfo" />
-                <marker date="1489134508616" expanded="true" signature="9643:9805" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="10256:10418" ph="select o.cat... missing_value" />
-                <marker date="1489134508616" expanded="false" signature="10821:11309" ph="SELECT o.cat... productinfo" />
-                <marker date="1489134508616" expanded="true" signature="12141:12249" ph="SELECT brand... productinfo" />
-                <marker date="1489134508616" expanded="true" signature="12394:12506" ph="SELECT brand... bub_productinfo" />
-                <marker date="1489134508616" expanded="true" signature="12653:12765" ph="SELECT brand... boo_productinfo" />
-                <marker date="1489134508616" expanded="true" signature="13545:13643" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="14342:14449" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="15181:15402" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="15260:15402" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="15320:15402" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="15769:15993" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="15848:15993" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="15908:15993" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="16359:16581" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="16438:16581" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="16498:16581" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="16948:17165" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="17027:17165" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="17087:17165" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="17533:17746" ph="select resul... id" />
-                <marker date="1489134508616" expanded="true" signature="17612:17746" ph="select infoc... id" />
-                <marker date="1489134508616" expanded="true" signature="17672:17746" ph="select o.id missing_value" />
-                <marker date="1489134508616" expanded="true" signature="18407:18528" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="18918:19039" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="19429:19550" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="19940:20061" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="20452:20573" ph="select p.siz... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="21330:21452" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="21936:22058" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="22499:22965" ph="SELECT o.bra... productsize2" />
-                <marker date="1489134508616" expanded="true" signature="23836:23995" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="24486:24645" ph="select o.bra... missing_value" />
-                <marker date="1489134508616" expanded="true" signature="25085:25577" ph="SELECT o.bra... productsize2" />
-                <marker date="1489134508616" expanded="true" signature="26439:26493" ph="SELECT date,... " />
-                <marker date="1489134508616" expanded="true" signature="26740:26794" ph="SELECT date,... " />
-                <marker date="1489134508616" expanded="true" signature="27242:27305" ph="SELECT date,... " />
-                <marker date="1489134508616" expanded="true" signature="27555:27619" ph="SELECT date,... " />
-                <marker date="1489134508616" expanded="true" signature="28152:28504" ph="SELECT o.bra... productsize2" />
-                <marker date="1489134508616" expanded="true" signature="28653:28840" ph="SELECT o.bra... producttitle" />
-                <marker date="1489134508616" expanded="true" signature="29525:29848" ph="select o.bra... productinfo" />
-                <marker date="1489134508616" expanded="true" signature="30185:30589" ph="SELECT o.bra... productinfo" />
-                <marker date="1489134508616" expanded="true" signature="31536:31849" ph="select o.bra... productinfo" />
+                <element signature="e#211#225#0" expanded="true" />
+                <marker date="1493285205395" expanded="true" signature="826:873" ph="SELECT categ... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="1554:1655" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="2389:2499" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="3240:3483" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="3319:3483" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="3403:3483" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="3967:4189" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="4046:4189" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="4106:4189" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="4569:4789" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="4648:4789" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="4708:4789" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="5530:5651" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="6040:6161" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="6566:6687" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="7539:7665" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="8139:8264" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="8687:9146" ph="SELECT o.cat... productinfo" />
+                <marker date="1493285205395" expanded="true" signature="9896:10058" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="10509:10671" ph="select o.cat... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="11074:11562" ph="SELECT o.cat... productinfo" />
+                <marker date="1493285205395" expanded="true" signature="12405:12513" ph="SELECT brand... productinfo" />
+                <marker date="1493285205395" expanded="true" signature="12658:12770" ph="SELECT brand... bub_productinfo" />
+                <marker date="1493285205395" expanded="true" signature="12917:13029" ph="SELECT brand... boo_productinfo" />
+                <marker date="1493285205395" expanded="true" signature="13820:13918" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="14629:14736" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="15477:15698" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="15556:15698" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="15616:15698" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="16065:16289" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="16144:16289" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="16204:16289" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="16655:16877" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="16734:16877" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="16794:16877" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="17244:17461" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="17323:17461" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="17383:17461" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="17829:18042" ph="select resul... id" />
+                <marker date="1493285205395" expanded="true" signature="17908:18042" ph="select infoc... id" />
+                <marker date="1493285205395" expanded="true" signature="17968:18042" ph="select o.id missing_value" />
+                <marker date="1493285205395" expanded="true" signature="18715:18836" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="19226:19347" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="19737:19858" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="20248:20369" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="20760:20881" ph="select p.siz... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="21639:21761" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="22245:22367" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="22808:23274" ph="SELECT o.bra... productsize2" />
+                <marker date="1493285205395" expanded="true" signature="24145:24304" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="24795:24954" ph="select o.bra... missing_value" />
+                <marker date="1493285205395" expanded="true" signature="25394:25886" ph="SELECT o.bra... productsize2" />
+                <marker date="1493285205395" expanded="true" signature="26724:26778" ph="SELECT date,... " />
+                <marker date="1493285205395" expanded="true" signature="27025:27079" ph="SELECT date,... " />
+                <marker date="1493285205395" expanded="true" signature="27543:27606" ph="SELECT date,... " />
+                <marker date="1493285205395" expanded="true" signature="27856:27920" ph="SELECT date,... " />
+                <marker date="1493285205395" expanded="true" signature="28400:28752" ph="SELECT o.bra... productsize2" />
+                <marker date="1493285205395" expanded="true" signature="28904:29091" ph="SELECT o.bra... producttitle" />
+                <marker date="1493285205395" expanded="true" signature="29784:30107" ph="select o.bra... productinfo" />
+                <marker date="1493285205395" expanded="true" signature="30455:30859" ph="SELECT o.bra... productinfo" />
+                <marker date="1493285205395" expanded="true" signature="31215:31528" ph="select o.bra... productinfo" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs.py">
+      <file leaf-file-name="graphs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Display Results/graphs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScraping/header.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="92" selection-start-line="0" selection-start-column="92" selection-end-line="0" selection-end-column="92" />
               <folding>
-                <element signature="e#247#666#0" expanded="false" />
-                <element signature="e#807#2001#0" expanded="false" />
-                <element signature="e#2095#3691#0" expanded="false" />
-                <element signature="e#3773#3999#0" expanded="false" />
-                <element signature="e#4087#4880#0" expanded="false" />
-                <element signature="e#4933#5310#0" expanded="false" />
-                <element signature="e#5366#6820#0" expanded="false" />
+                <element signature="e#125#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScraping/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#112#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ellos2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScraping/ellos2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <marker date="1493283310147" expanded="true" signature="3848:4077" ph="INSERT INTO producttitle... " />
+                <marker date="1493283310147" expanded="true" signature="5429:5626" ph="INSERT INTO productsize2... " />
+                <marker date="1493283310147" expanded="true" signature="7675:7842" ph="INSERT INTO productinfo... " />
+                <marker date="1493283310147" expanded="true" signature="8978:9103" ph="INSERT INTO productcolor... " />
+                <marker date="1493283310147" expanded="true" signature="11255:11350" ph="INSERT INTO productsize... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bubble1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bubble1.py">
+        <entry file="file://$PROJECT_DIR$/WebScraping/bubble1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#256#1871#0" expanded="false" />
-                <element signature="e#1897#2422#0" expanded="false" />
-                <element signature="e#2441#2682#0" expanded="false" />
+                <element signature="e#183#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bubble2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bubble2.py">
+        <entry file="file://$PROJECT_DIR$/WebScraping/bubble2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#973#1846#0" expanded="false" />
-                <element signature="e#1891#5701#0" expanded="false" />
-                <marker date="1472655773306" expanded="true" signature="1618:1739" ph="INSERT INTO bub_productinfo... " />
-                <marker date="1472655773306" expanded="true" signature="3051:3192" ph="INSERT INTO bub_productcolor... " />
-                <marker date="1472655773306" expanded="true" signature="5367:5466" ph="INSERT INTO bub_productsize... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boozt1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boozt1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#311#831#0" expanded="false" />
-                <element signature="e#863#2286#0" expanded="false" />
-                <element signature="e#2312#2564#0" expanded="false" />
-                <element signature="e#2610#2847#0" expanded="false" />
+                <marker date="1493282312709" expanded="true" signature="1829:1950" ph="INSERT INTO bub_productinfo... " />
+                <marker date="1493282312709" expanded="true" signature="3359:3500" ph="INSERT INTO bub_productcolor... " />
+                <marker date="1493282312709" expanded="true" signature="5675:5774" ph="INSERT INTO bub_productsize... " />
               </folding>
             </state>
           </provider>
@@ -310,6 +289,17 @@
         <option value="$PROJECT_DIR$/ellos2.py" />
         <option value="$PROJECT_DIR$/ellos1.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/WebScraping/ellos1.py" />
+        <option value="$PROJECT_DIR$/WebScraping/bubble1.py" />
+        <option value="$PROJECT_DIR$/WebScraping/boozt1.py" />
+        <option value="$PROJECT_DIR$/WebScraping/bubble2.py" />
+        <option value="$PROJECT_DIR$/WebScraping/boozt2.py" />
+        <option value="$PROJECT_DIR$/WebScraping/ellos2.py" />
+        <option value="$PROJECT_DIR$/WebScraping/header.py" />
+        <option value="$PROJECT_DIR$/WebScraping/main.py" />
+        <option value="$PROJECT_DIR$/Fetching API Data/apiData.py" />
+        <option value="$PROJECT_DIR$/DatabaseQueries/databaseQuery.py" />
+        <option value="$PROJECT_DIR$/Display Results/graphs.py" />
       </list>
     </option>
   </component>
@@ -350,8 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,9 +385,69 @@
               <option name="myItemId" value="ellos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebScraping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fetching API Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Display Results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DatabaseQueries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -791,23 +839,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/../FlaskApp/_init_py.py</url>
           <line>16</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/ellos2.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/ellos2.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -818,35 +852,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../rec_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/../python-scraping-master/python-scraping-master/chapter1/2-beautifulSoup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="13" selection-start-line="10" selection-start-column="0" selection-end-line="59" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.ipynb" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/json/decoder.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/oauth2client/util.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/oauth2client/client.py" />
-    <entry file="file://$PROJECT_DIR$/client_secret_65444115260-o7ps20ho5i238qvderkjvplk31srgj8k.apps.googleusercontent.com.json" />
-    <entry file="file://$PROJECT_DIR$/../python-scraping-master/python-scraping-master/chapter1/2-beautifulSoup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zalando.py" />
-    <entry file="file://$PROJECT_DIR$/../../../.svn/prop-base/pagination.py.svn-base" />
     <entry file="file://$PROJECT_DIR$/../1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -882,20 +887,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zalando_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zalando_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zalando_2.py" />
+    <entry file="file://$PROJECT_DIR$/zalando_1.py" />
     <entry file="file://$PROJECT_DIR$/nelly2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -910,62 +903,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandasTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="244" column="33" selection-start-line="244" selection-start-column="33" selection-end-line="244" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="187" column="33" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test5.py" />
+    <entry file="file://$PROJECT_DIR$/pandasTest.py" />
+    <entry file="file://$PROJECT_DIR$/test1.py" />
+    <entry file="file://$PROJECT_DIR$/test2.py" />
+    <entry file="file://$PROJECT_DIR$/test3.py" />
+    <entry file="file://$PROJECT_DIR$/test4.py" />
+    <entry file="file://$PROJECT_DIR$/presentation.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/boozt2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -973,34 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calender_API.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case_Study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheaterxx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Calender_API.py" />
+    <entry file="file://$PROJECT_DIR$/Case_Study.py" />
+    <entry file="file://$PROJECT_DIR$/cheater.py" />
+    <entry file="file://$PROJECT_DIR$/cheaterxx.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1008,20 +929,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Databse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="280" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiThreading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Databse.py" />
+    <entry file="file://$PROJECT_DIR$/multiThreading.py" />
     <entry file="file://$PROJECT_DIR$/credentials.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1050,13 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testttt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testttt.py" />
     <entry file="file://$PROJECT_DIR$/../FlaskApp/_init_py.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1074,15 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#247#666#0" expanded="false" />
-            <element signature="e#807#2001#0" expanded="false" />
-            <element signature="e#2095#3691#0" expanded="false" />
-            <element signature="e#3773#3999#0" expanded="false" />
-            <element signature="e#4087#4880#0" expanded="false" />
-            <element signature="e#4933#5310#0" expanded="false" />
-            <element signature="e#5366#6820#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,11 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#1871#0" expanded="false" />
-            <element signature="e#1897#2422#0" expanded="false" />
-            <element signature="e#2441#2682#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,13 +993,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#973#1846#0" expanded="false" />
-            <element signature="e#1891#5701#0" expanded="false" />
-            <marker date="1472655773306" expanded="true" signature="1618:1739" ph="INSERT INTO bub_productinfo... " />
-            <marker date="1472655773306" expanded="true" signature="3051:3192" ph="INSERT INTO bub_productcolor... " />
-            <marker date="1472655773306" expanded="true" signature="5367:5466" ph="INSERT INTO bub_productsize... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,12 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#311#831#0" expanded="false" />
-            <element signature="e#863#2286#0" expanded="false" />
-            <element signature="e#2312#2564#0" expanded="false" />
-            <element signature="e#2610#2847#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,81 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="640" column="16" selection-start-line="640" selection-start-column="16" selection-end-line="640" selection-end-column="16" />
-          <folding>
-            <element signature="e#462#11949#0" expanded="false" />
-            <element signature="e#595#1013#0" expanded="false" />
-            <element signature="e#1309#1787#0" expanded="false" />
-            <element signature="e#2144#2634#0" expanded="false" />
-            <element signature="e#2991#4900#0" expanded="false" />
-            <element signature="e#5278#6819#0" expanded="false" />
-            <element signature="e#7270#8417#0" expanded="false" />
-            <element signature="e#9635#10806#0" expanded="false" />
-            <element signature="e#12029#26211#0" expanded="false" />
-            <element signature="e#26289#27963#0" expanded="false" />
-            <element signature="e#28060#32056#0" expanded="false" />
-            <element signature="e#32089#32360#0" expanded="false" />
-            <marker date="1489134508616" expanded="true" signature="603:650" ph="SELECT categ... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="1317:1418" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="2152:2262" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="3003:3246" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="3082:3246" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="3166:3246" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="3730:3952" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="3809:3952" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="3869:3952" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="4332:4552" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="4411:4552" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="4471:4552" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="5290:5411" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="5800:5921" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="6326:6447" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="7284:7410" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="7884:8009" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="8432:8891" ph="SELECT o.cat... productinfo" />
-            <marker date="1489134508616" expanded="true" signature="9643:9805" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="10256:10418" ph="select o.cat... missing_value" />
-            <marker date="1489134508616" expanded="false" signature="10821:11309" ph="SELECT o.cat... productinfo" />
-            <marker date="1489134508616" expanded="true" signature="12141:12249" ph="SELECT brand... productinfo" />
-            <marker date="1489134508616" expanded="true" signature="12394:12506" ph="SELECT brand... bub_productinfo" />
-            <marker date="1489134508616" expanded="true" signature="12653:12765" ph="SELECT brand... boo_productinfo" />
-            <marker date="1489134508616" expanded="true" signature="13545:13643" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="14342:14449" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="15181:15402" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="15260:15402" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="15320:15402" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="15769:15993" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="15848:15993" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="15908:15993" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="16359:16581" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="16438:16581" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="16498:16581" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="16948:17165" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="17027:17165" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="17087:17165" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="17533:17746" ph="select resul... id" />
-            <marker date="1489134508616" expanded="true" signature="17612:17746" ph="select infoc... id" />
-            <marker date="1489134508616" expanded="true" signature="17672:17746" ph="select o.id missing_value" />
-            <marker date="1489134508616" expanded="true" signature="18407:18528" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="18918:19039" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="19429:19550" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="19940:20061" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="20452:20573" ph="select p.siz... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="21330:21452" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="21936:22058" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="22499:22965" ph="SELECT o.bra... productsize2" />
-            <marker date="1489134508616" expanded="true" signature="23836:23995" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="24486:24645" ph="select o.bra... missing_value" />
-            <marker date="1489134508616" expanded="true" signature="25085:25577" ph="SELECT o.bra... productsize2" />
-            <marker date="1489134508616" expanded="true" signature="26439:26493" ph="SELECT date,... " />
-            <marker date="1489134508616" expanded="true" signature="26740:26794" ph="SELECT date,... " />
-            <marker date="1489134508616" expanded="true" signature="27242:27305" ph="SELECT date,... " />
-            <marker date="1489134508616" expanded="true" signature="27555:27619" ph="SELECT date,... " />
-            <marker date="1489134508616" expanded="true" signature="28152:28504" ph="SELECT o.bra... productsize2" />
-            <marker date="1489134508616" expanded="true" signature="28653:28840" ph="SELECT o.bra... producttitle" />
-            <marker date="1489134508616" expanded="true" signature="29525:29848" ph="select o.bra... productinfo" />
-            <marker date="1489134508616" expanded="true" signature="30185:30589" ph="SELECT o.bra... productinfo" />
-            <marker date="1489134508616" expanded="true" signature="31536:31849" ph="select o.bra... productinfo" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,18 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#1312#1748#0" expanded="false" />
-            <element signature="e#1997#2443#0" expanded="false" />
-            <element signature="e#2598#4449#0" expanded="false" />
-            <element signature="e#4612#5670#0" expanded="false" />
-            <element signature="e#5798#11277#0" expanded="false" />
-            <marker date="1493203665999" expanded="true" signature="3604:3833" ph="INSERT INTO producttitle... " />
-            <marker date="1493203665999" expanded="true" signature="5153:5350" ph="INSERT INTO productsize2... " />
-            <marker date="1493203665999" expanded="true" signature="7400:7567" ph="INSERT INTO productinfo... " />
-            <marker date="1493203665999" expanded="true" signature="8703:8828" ph="INSERT INTO productcolor... " />
-            <marker date="1493203665999" expanded="true" signature="10980:11075" ph="INSERT INTO productsize... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,11 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#302#2259#0" expanded="false" />
-            <element signature="e#2382#2633#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,9 +1033,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,11 +1041,184 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/ellos1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="64" column="92" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="92" />
           <folding>
-            <element signature="e#256#1366#0" expanded="false" />
-            <element signature="e#1411#4873#0" expanded="false" />
-            <element signature="e#4918#6808#0" expanded="false" />
+            <element signature="e#178#196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/boozt1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#183#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/boozt2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493282546695" expanded="true" signature="2082:2231" ph="INSERT INTO boo_productinfo... " />
+            <marker date="1493282546695" expanded="true" signature="3056:3185" ph="INSERT INTO boo_productcolor... " />
+            <marker date="1493282546695" expanded="true" signature="5287:5370" ph="INSERT INTO boo_productsize... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/ellos2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <marker date="1493283310147" expanded="true" signature="3848:4077" ph="INSERT INTO producttitle... " />
+            <marker date="1493283310147" expanded="true" signature="5429:5626" ph="INSERT INTO productsize2... " />
+            <marker date="1493283310147" expanded="true" signature="7675:7842" ph="INSERT INTO productinfo... " />
+            <marker date="1493283310147" expanded="true" signature="8978:9103" ph="INSERT INTO productcolor... " />
+            <marker date="1493283310147" expanded="true" signature="11255:11350" ph="INSERT INTO productsize... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/bubble2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1493282312709" expanded="true" signature="1829:1950" ph="INSERT INTO bub_productinfo... " />
+            <marker date="1493282312709" expanded="true" signature="3359:3500" ph="INSERT INTO bub_productcolor... " />
+            <marker date="1493282312709" expanded="true" signature="5675:5774" ph="INSERT INTO bub_productsize... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/bubble1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#183#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScraping/header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="92" selection-start-line="0" selection-start-column="92" selection-end-line="0" selection-end-column="92" />
+          <folding>
+            <element signature="e#125#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fetching API Data/apiData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#174#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatabaseQueries/databaseQuery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#211#225#0" expanded="true" />
+            <marker date="1493285205395" expanded="true" signature="826:873" ph="SELECT categ... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="1554:1655" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="2389:2499" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="3240:3483" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="3319:3483" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="3403:3483" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="3967:4189" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="4046:4189" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="4106:4189" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="4569:4789" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="4648:4789" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="4708:4789" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="5530:5651" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="6040:6161" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="6566:6687" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="7539:7665" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="8139:8264" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="8687:9146" ph="SELECT o.cat... productinfo" />
+            <marker date="1493285205395" expanded="true" signature="9896:10058" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="10509:10671" ph="select o.cat... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="11074:11562" ph="SELECT o.cat... productinfo" />
+            <marker date="1493285205395" expanded="true" signature="12405:12513" ph="SELECT brand... productinfo" />
+            <marker date="1493285205395" expanded="true" signature="12658:12770" ph="SELECT brand... bub_productinfo" />
+            <marker date="1493285205395" expanded="true" signature="12917:13029" ph="SELECT brand... boo_productinfo" />
+            <marker date="1493285205395" expanded="true" signature="13820:13918" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="14629:14736" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="15477:15698" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="15556:15698" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="15616:15698" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="16065:16289" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="16144:16289" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="16204:16289" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="16655:16877" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="16734:16877" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="16794:16877" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="17244:17461" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="17323:17461" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="17383:17461" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="17829:18042" ph="select resul... id" />
+            <marker date="1493285205395" expanded="true" signature="17908:18042" ph="select infoc... id" />
+            <marker date="1493285205395" expanded="true" signature="17968:18042" ph="select o.id missing_value" />
+            <marker date="1493285205395" expanded="true" signature="18715:18836" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="19226:19347" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="19737:19858" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="20248:20369" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="20760:20881" ph="select p.siz... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="21639:21761" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="22245:22367" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="22808:23274" ph="SELECT o.bra... productsize2" />
+            <marker date="1493285205395" expanded="true" signature="24145:24304" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="24795:24954" ph="select o.bra... missing_value" />
+            <marker date="1493285205395" expanded="true" signature="25394:25886" ph="SELECT o.bra... productsize2" />
+            <marker date="1493285205395" expanded="true" signature="26724:26778" ph="SELECT date,... " />
+            <marker date="1493285205395" expanded="true" signature="27025:27079" ph="SELECT date,... " />
+            <marker date="1493285205395" expanded="true" signature="27543:27606" ph="SELECT date,... " />
+            <marker date="1493285205395" expanded="true" signature="27856:27920" ph="SELECT date,... " />
+            <marker date="1493285205395" expanded="true" signature="28400:28752" ph="SELECT o.bra... productsize2" />
+            <marker date="1493285205395" expanded="true" signature="28904:29091" ph="SELECT o.bra... producttitle" />
+            <marker date="1493285205395" expanded="true" signature="29784:30107" ph="select o.bra... productinfo" />
+            <marker date="1493285205395" expanded="true" signature="30455:30859" ph="SELECT o.bra... productinfo" />
+            <marker date="1493285205395" expanded="true" signature="31215:31528" ph="select o.bra... productinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display Results/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

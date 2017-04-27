@@ -1,9 +1,13 @@
+"""........This file consist of functions to gets the authrization to access the data from API, construct the request body for the parameters Page URL and SKU .........."""
+
 import httplib2
 from apiclient.discovery import build
 from oauth2client import tools
 from oauth2client.file import Storage
 from oauth2client.client import AccessTokenRefreshError
 from oauth2client.client import OAuth2WebServerFlow
+
+#Gets the authrization to access the data from API
 
 def get_credential():
   # For this example, the client id and client secret are command-line arguments.
@@ -34,6 +38,8 @@ def get_credential():
       discoveryServiceUrl='https://analyticsreporting.googleapis.com/$discovery/rest')
 
   return analyticsReporting
+
+#Construct the report request object by specifying the data range, metrics and dimensions in order to fetch the product page URL data from the Google analytic API
 
 def urlData(analyticsReporting,token):
     try:
@@ -132,6 +138,8 @@ def urlData(analyticsReporting,token):
         print('The credentials have been revoked or expired, please re-run the application to re-authorize')
 
     return response
+
+#Construct the report request object by specifying the data range, metrics and dimensions in order to fetch the product size SKU data from the Google analytic API
 
 def skuData(analyticsReporting,token):
     try:

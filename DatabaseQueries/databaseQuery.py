@@ -1,3 +1,6 @@
+"""........This file contains all the database queries to retrieve the data from the database and group the data based on a specific parameter
+to perform category, product and brand level analyses.........."""
+
 import pymysql
 from pandas.io import sql
 import pandas as pd
@@ -13,11 +16,11 @@ topBrand=[]
 topBrand1=[]
 topBrand2=[]
 
-'''!!!.... Category Level Aanlysis....!!!!'''
+"""............Category Level Aanlysis.........."""
 
 def runQueryatCategoryLevel():
 
-    '''....Total products in each category for every Retailer.... '''
+    """.........Total products in each category for each Retailer......."""
 
     df = pd.DataFrame()
 
@@ -29,14 +32,15 @@ def runQueryatCategoryLevel():
         df=df.append(results)
         df['category'] = df["category"].map(lambda x: x if type(x) != str else x.lower())
     print(df)
-    '''...for graph....'''
 
     header=df.dtypes.index
+
+    #Call a multiple bar graph function
     graphs.multipleBar(df,header[0],header[1],header[2])
     print('\n')
 
 
-    '''....No of offered products in each category for every Retailer.... '''
+    """....No of offered products in each category for every Retailer.... """
 
     df = pd.DataFrame()
     for o,i,z in zip(var,var1,retName):
@@ -53,7 +57,7 @@ def runQueryatCategoryLevel():
     print(df)
     print('\n')
 
-    '''....Offer Percentage in each category for every Retailer.... '''
+    """....Offer Percentage in each category for every Retailer.... """
 
     df = pd.DataFrame()
     for o, i, z in zip(var, var1, retName):
@@ -71,7 +75,7 @@ def runQueryatCategoryLevel():
     print('\n')
 
 
-    '''....Color Variation in each category for every Retailer.... '''
+    """....Color Variation in each category for every Retailer.... """
 
     df = pd.DataFrame()
     for o, i, z in zip(var, var1, retName):
@@ -108,7 +112,7 @@ def runQueryatCategoryLevel():
     print('\n')
 
 
-    '''....Size Variation in each category for every Retailer.... '''
+    """.......Size Variation in each category for every Retailer.... """
 
     df = pd.DataFrame()
     for o, i, p, z in zip(var, var1,var2, retName):
@@ -139,7 +143,7 @@ def runQueryatCategoryLevel():
     print(df)
     print('\n')
 
-    '''....Item Sold in each category.... '''
+    """............Item Sold in each category........... """
 
     df = pd.DataFrame()
     df1 = pd.DataFrame()
@@ -170,8 +174,6 @@ def runQueryatCategoryLevel():
     results['retailer_x'] = retName[0]
 
 
-
-
     df=pd.merge(df1,df2,on='sku',how='inner')
     df['itemsold'] = df['quantity_y'] - df['quantity_x']
     df = df.append(results)
@@ -183,7 +185,7 @@ def runQueryatCategoryLevel():
     print(df[0:20])
     print('\n')
 
-    '''....Revenue in each category.... '''
+    """....Revenue in each category.... """
 
     df = pd.DataFrame()
     df1 = pd.DataFrame()
@@ -230,11 +232,11 @@ def runQueryatCategoryLevel():
     print('\n')
 
 
-'''!!!.... Brand Level Aanlysis....!!!!'''
+"""............. Brand Level Aanlysis............"""
 
 def runQueryatBrandLevel():
 
-    '''....Total products in top 5 common brands for every Retailer.... '''
+    """....Total products in top 5 common brands for every Retailer......"""
 
     df = pd.DataFrame()
 
@@ -274,7 +276,7 @@ def runQueryatBrandLevel():
     print(df)
     print('\n')
 
-    '''....No of offered products in top 5 common brands for every Retailer.... '''
+    """.........No of offered products in top 5 common brands for every Retailer.......... """
 
     df = pd.DataFrame()
     for o, i, z in zip(var, var1, retName):
@@ -288,7 +290,8 @@ def runQueryatBrandLevel():
     graphs.multipleBar(df, header[0], header[1], header[2])
     print(df)
     print('\n')
-    '''....Offer Percentage in top 5 common brands for every Retailer.... '''
+
+    """..........Offer Percentage in top 5 common brands for every Retailer.........."""
 
     df = pd.DataFrame()
     for o, i, z in zip(var, var1, retName):
@@ -304,7 +307,7 @@ def runQueryatBrandLevel():
     print(df)
     print('\n')
 
-    '''....Color Variation in top 5 common brands for every Retailer.... '''
+    """.........Color Variation in top 5 common brands for every Retailer........."""
 
     df = pd.DataFrame()
     for o, i,z in zip(var, var1, retName):
@@ -353,7 +356,7 @@ def runQueryatBrandLevel():
     print(df)
     print('\n')
 
-    '''....Size Variation in top 5 common brands for every Retailer.... '''
+    """..........Size Variation in top 5 common brands for every Retailer..........."""
 
     df = pd.DataFrame()
     for o, i, p, z in zip(var, var1, var2, retName):
@@ -397,7 +400,7 @@ def runQueryatBrandLevel():
     print(df)
     print('\n')
 
-    '''....Item Sold in top 5 common brands.... '''
+    """....Items Sold in top 5 common brands.... """
 
     df = pd.DataFrame()
     df1 = pd.DataFrame()
@@ -437,7 +440,7 @@ def runQueryatBrandLevel():
     print(df)
     print('\n')
 
-    '''....Revenue in top 5 common brands.... '''
+    """....Revenue in top 5 common brands.... """
 
     df = pd.DataFrame()
     df1 = pd.DataFrame()
@@ -478,9 +481,8 @@ def runQueryatBrandLevel():
     header = df.dtypes.index
     graphs.brandStackedMultiBar(df, header[13], header[12], header[0], header[10])
 
-    """....Promotion Analysis......"""
 
-'''!!!.... Product Level Aanlysis....!!!!'''
+"""............. Product Level Aanlysis................."""
 
 def runQueryPromotion():
 
@@ -508,7 +510,7 @@ def runQueryPromotion():
     header = df.dtypes.index
     graphs.lines(df, header[0], header[1], header[2])
 
-    """.....Promtion %  over the week"""
+    """.....Offer Percentage over the week..........."""
 
     df = pd.DataFrame()
     """.....Day1..."""
@@ -532,11 +534,7 @@ def runQueryPromotion():
     header = df.dtypes.index
     graphs.lines(df, header[0], header[1], header[2])
 
-    """....Api Level Analysis......"""
-
-date1 = '2016-08-23'
-
-'''!!!.... API Level Aanlysis....!!!!'''
+    """..........API Level Analysis..........."""
 
 def runQueryatApiLevel():
 
@@ -548,7 +546,7 @@ def runQueryatApiLevel():
     results1 = sql.read_sql(query, con=conn, params=[date1, date1, date1, date1])
 
 
-    """.....Traffic/views for each brand...."""
+    """.....Traffic/views for each brand......."""
 
     query = "SELECT o.brand,SUM(k.pageViews) as pageViews from producttitle as k INNER JOIN  productinfo as o ON o.id=k.id WHERE o.date=%s AND k.date=%s GROUP BY o.brand ORDER BY SUM(k.pageViews) DESC "
     results2 = sql.read_sql(query, con=conn, params=[date1, date1])
@@ -576,7 +574,7 @@ def runQueryatApiLevel():
 
     graphs.yAxis(topBrand,df1['itemSold'],df2['pageViews'])
 
-    """.....Offer % for each brand...."""
+    """.........Offer % for each brand........"""
 
     df = pd.DataFrame()
 
@@ -590,7 +588,7 @@ def runQueryatApiLevel():
     print('\n')
 
 
-    """.....Size Popularity for each brand...."""
+    """.........Size Popularity for each brand..........."""
 
     df = pd.DataFrame()
 
@@ -606,17 +604,8 @@ def runQueryatApiLevel():
     graphs.subPlots(df, header[2])
 
     print(df)
-    """
-    for i in topBrand:
-        query = "SELECT o.brand,p.size,q.itemQuantity from productsize2 AS q INNER JOIN productsize AS p ON p.sku=q.sku INNER JOIN productcolor AS i on p.colorId=i.colorId " \
-                "INNER JOIN  productinfo as o ON o.id=i.id WHERE o.date=%s AND i.date=%s AND p.date=%s AND q.date=%s AND (o.brand=%s OR o.brand=%s OR o.brand=%s OR o.brand=%s OR o.brand=%s)"
-        results = sql.read_sql(query, con=conn, params=[date1, date1, date1, date1,topBrand[0], topBrand[1], topBrand[2], topBrand[3], topBrand[4]])
-        df=df.append(results)
 
-    print(df)
-    """
-
-    """.....Size availability for each brand...."""
+    """..........Size availability for each brand........"""
     df = pd.DataFrame()
 
     for i in topBrand:
@@ -632,9 +621,9 @@ def runQueryatApiLevel():
 if __name__ == '__main__':
     conn = pymysql.connect(host='127.0.0.1', user='root', passwd='iprospect', db='scraping', charset='utf8')
     cur = conn.cursor()
-    #runQueryatCategoryLevel()
-    #runQueryatBrandLevel()
-    #runQueryPromotion()
+    runQueryatCategoryLevel()
+    runQueryatBrandLevel()
+    runQueryPromotion()
     runQueryatApiLevel()
 
     cur.close()
