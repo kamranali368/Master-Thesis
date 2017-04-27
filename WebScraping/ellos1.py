@@ -1,3 +1,5 @@
+""".........This file extract all the product page links and fetch each product page data from the target webserver by transversing the entire client website................"""
+
 import header as h
 import ellos2
 
@@ -8,7 +10,8 @@ category={'skonhet-halsa','accessoarer','traningstillbehor','set_3'}
 analyticsReporting=None
 curr=None
 
-#Function to transverse the retailer entire website and extract all the products page link
+#Transverse the client entire website and extract all the product page links
+
 def pageLinks(bsObj,url):
     try:
         links = []
@@ -59,7 +62,8 @@ def pageLinks(bsObj,url):
         bsObj = get_bsObj(link['href'])
         pageLinks(bsObj,link['href'])
 
-#Function to read the webpage data from a target webserver and format it into beautifulsoup object
+#Fetch the product page data from a target webserver and format it into beautifulsoup object
+
 def get_bsObj(url):
     try:
         pageUrl = "http://www.ellos.se" + url
@@ -70,7 +74,8 @@ def get_bsObj(url):
         print(e)
     return bsObj
 
-#function to get Google Analytic API credentials and calls URL data and SKU data function
+#Get Google Analytic API credentials, call URL data and SKU data functions to fetch the data from the Google Analytic API
+
 def main():
     analyticsReporting=h.apiData.get_credential()
     url=""

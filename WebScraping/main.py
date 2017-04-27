@@ -1,3 +1,5 @@
+""".......This file calls the client, competitor1 and competitor2 website scraping files one by one........"""
+
 import ellos1
 import bubble1
 import boozt1

@@ -1,14 +1,12 @@
-#from urllib.request import urlopen
-#from bs4 import BeautifulSoup
-#from urllib.error import HTTPError
-#import re
+""".........This file extract all the product page links and fetch each product page data from the target webserver by transversing the entire Competitor1 website................"""
+
 import bubble2
-import pymysql
-#import urllib.parse
 import header as h
 idList=set()
 
 category={'Kläder','Skor'}
+
+#Transverse the Competitor1 entire website and extract all the product page links
 
 def pageLinks(bsObj,url):
     try:
@@ -50,6 +48,8 @@ def pageLinks(bsObj,url):
         bsObj = get_bsObj(link['href'])
         pageLinks(bsObj,link['href'])
 
+#Fetch the product page data from a target webserver and format it into beautifulsoup object
+
 def get_bsObj(url):
     try:
         if url.find('%') == -1:
@@ -70,10 +70,7 @@ def get_bsObj(url):
 
 
 def main():
-    #conn = pymysql.connect(host='127.0.0.1', user='root', passwd='iprospect', db='scraping', charset='utf8')
-    #cur = conn.cursor()
+
     url = "/sv/kvinna"
     bsObj = get_bsObj(url)
     pageLinks(bsObj, url)
-    #cur.close()
-    #conn.close()

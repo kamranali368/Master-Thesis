@@ -1,11 +1,13 @@
-#import json
-#from datetime import date
-#tDate = date.today()
+"""...........This file scrape all the product information from the Competitor2 website and store all the data in a database.............."""
+
 import header as h
+
+#list of categories for whom data will be scraped from the competitor2 website........"""
 
 tCategory={'Klänningar','Ytterkläder','Överdelar','Badkläder'}
 bCategory={'Nederdelar','Lingerie'}
 
+#Mapping of a retailer size measure scale into international scale size........"""
 
 wTops={'32':'X','34':'S','36':'S','38':'M','40':'L','42':'X','44':'X','46':'X','48':'X','50':'X','52':'X'}
 intSize={'XXS','XS','S','M','L','XL','XXL','XXXL','XXXXL'}
@@ -13,15 +15,15 @@ wintSize={'XXS':'X','XS':'X','S':'S','M':'M','L':'L','XL':'X','XXL':'X','XXXL':'
 wBottom={'26':'X','27':'S','28':'S','29':'M','30':'L','31':'X','32':'X','33':'X','34':'X','35':'X','36':'X','37':'X'}
 wShoes={'36':'S','37':'S','38':'M','39':'M','40':'L','41':'L','42':'X','43':'X'}
 
-
-
+#Scraping the product data from the competitor1 website and stroing the data in a database
 
 def productInfo(bsObj,url,colorList):
 
     try:
-        id=bsObj.find('span',{'class','prd-item-number'}) #data ean id
+        id=bsObj.find('span',{'class','prd-item-number'})
 
-        '''...!!!# Some product go out of color ?Size...'''
+        #product go out of color or Size...'''
+
         if id is None:
             return
 
@@ -29,9 +31,8 @@ def productInfo(bsObj,url,colorList):
         brand=bsObj.find('span',{'itemprop':'brand'}).get_text()
         name=bsObj.find('div',{'class':'product-details'}).find('span',{'itemprop':'name'}).get_text()
         gender='female'
-        list = bsObj.findAll('a', {'class': 'product-breadcrumbs__item'})# list=bsObj.findAll('a',{'class':'bread-crumb'})
+        list = bsObj.findAll('a', {'class': 'product-breadcrumbs__item'})
         subCategory=list[len(list)-1].get_text().replace(' ','').replace('\n','').replace('\r','')
-        #print(subCategory)
         if subCategory in tCategory:
             category = 'Top'
         elif subCategory in bCategory:
@@ -67,7 +68,7 @@ def productInfo(bsObj,url,colorList):
                     (id, colorId, color, originalPrice, discountPrice, int(discountPercentage), h.tDate))
             h.cur.connection.commit()
 
-        """!!!...Extract and Format a Json File...!!!"""
+        #Extract and Format a Json File...!!!"""
 
         jsFiles = bsObj.findAll("script", {"type": "text/javascript"})
         for file in jsFiles:

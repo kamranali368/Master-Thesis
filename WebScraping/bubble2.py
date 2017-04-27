@@ -1,11 +1,13 @@
-#from datetime import date
-#from bs4 import BeautifulSoup
+"""...........This file scrape all the product information from the Competitor1 website and store all the data in a database.............."""
+
 import header as h
 
-#tDate = date.today()
-"""!!!....XXL==2XL...!!!!"""
+#list of categories for whom data will be scraped from the competitor1 website........"""
+
 tCategory={'Klänningar','Jackor & Kappor','Toppar & T-shirts','Tröjor','Blusar & Skjortor','Kavajer','T-shirts','Jackor','Linnen','Badkläder'}
 bCategory={'Jeans','Leggings','Shorts','Kjolar','Byxor','Jumpsuits','Tights','Underkläder & Sovplagg','Strumpor och tights','Myskläder'}
+
+#Mapping of a retailer size measure scale into international scale size........"""
 
 wTops={'32':'X','34':'X','36':'S','38':'M','40':'L','42':'X','44':'X','46':'X','48':'X','50':'X','52':'X'}
 intSize={'XXS','XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
@@ -13,13 +15,13 @@ wintSize={'XXS':'X','XS':'X','S':'S','M':'M','L':'L','XL':'X','2XL':'X','3XL':'X
 wBottom={'22':'X','23':'X','24':'X','25':'X','26':'S','27':'S','28':'M','29':'M','30':'L','31':'L','32':'X','33':'X','34':'X','35':'X','36':'X','37':'X'}
 wShoes={'36':'S','37':'S','38':'M','39':'M','40':'L','41':'L','42':'XL','43':'XL'}
 
+#Scraping the product data from the competitor1 website and stroing the data in a database
 
 
 def productInfo(bsObj,url,id):
     segment=url.split('/')
     gender=segment[3]
     brand=segment[4].replace('-',' ')
-    #name=bsObj.find('span',{'class':'spanName'}).get_text() # also data_prod gives name
     str=bsObj.find('div',{'id':'breadCrumbData'}).get_text()
     bs4=h.BeautifulSoup(str,"html.parser")
     list=bs4.findAll('a')
@@ -41,6 +43,7 @@ def productInfo(bsObj,url,id):
     h.cur.connection.commit()
     return category
 
+#Scraping the product color data from the competitor1 website and stroing the data in a database
 
 def colorInfo(bsObj,url,id,category):
     try:

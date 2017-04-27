@@ -1,14 +1,13 @@
-#from urllib.request import urlopen
-#from bs4 import BeautifulSoup
-#from urllib.error import HTTPError
-#import re
+""".........This file extract all the product page links and fetch each product page data from the target webserver by transversing the entire Competitor2 website................"""
+
 import boozt2
-import pymysql
 import header as h
 
 idList=set()
 category={'Kvinnor'}
 subCategory={'Klänningar','Ytterkläder','Överdelar','Nederdelar','Lingerie','Skor'}
+
+#Extract all the product color links
 
 def productLinks(bsObj):
     list = bsObj.find('ul', {'id': 'product-list-cont'}).findAll('li')
@@ -23,6 +22,8 @@ def productLinks(bsObj):
             except:
                 print('link not found')
             boozt2.productInfo(bsObj, link['href'], colorList)
+
+#Transverse the Competitor2 entire website and extract all the product page links
 
 def pageLinks(bsObj,url):
     try:
@@ -62,6 +63,8 @@ def pageLinks(bsObj,url):
         bsObj = get_bsObj(link)
         pageLinks(bsObj,link)
 
+#Fetch the product page data from a target webserver and format it into beautifulsoup object
+
 def get_bsObj(url):
     try:
         pageUrl = "http://www.boozt.com" + url
@@ -73,11 +76,8 @@ def get_bsObj(url):
     return bsObj
 
 
-def main():#if __name__ == '__main__':
-    #conn = pymysql.connect(host='127.0.0.1', user='root', passwd='iprospect', db='scraping', charset='utf8')
-    #cur = conn.cursor()
+def main():
     url = "/se/sv"
     bsObj = get_bsObj(url)
     pageLinks(bsObj, url)
-    #cur.close()
-    #conn.close()
+

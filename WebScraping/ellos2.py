@@ -1,14 +1,17 @@
+"""...........This file scrape all the product information from the client website, fetch the data from the Google Analytic API
+ and store all the data in a database.............."""
+
 import header as h
 
 urlDict = {"pageValue": 0.0, "pageViews": 0, "entrances": 0, "entrancesRate": 0.0, "pageviewsPerSession": 0.0,"uniquePageViews": 0, "timeOnPage": 0.0, "aveTimeOnPage": 0.0, "exits": 0, "exitRate": 0.0}
 id=0
 
-#list of categories for whom data will be scraped from the retailer website
+#list of categories for whom data will be scraped from the client website........"""
 
 tCategory={'overdelar','ytterplagg','Jackor','Set','T-shirts','Toppar','Tröjor'}
 bCategory={'nederdelar','Underkläder, sov & bad','underklader-bad','Byxor','Shorts','Tights','Underkläder','Trosor'}
 
-#Mapping of a retailer size measure scale into international size scale"""
+#Mapping of a retailer size measure scale into international scale size........"""
 
 intSize={'XXS','XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 wintSize={'XXS':'X','XS':'X','S':'S','M':'M','L':'L','XL':'X','2XL':'X','3XL':'X','4XL':'X','5XL':'X','6XL':'X'}
@@ -16,7 +19,7 @@ wTops={'30':'X','32':'X','34':'S','36':'S','38':'M','40':'M','42':'L','44':'L','
 wBottom={'23':'X','24':'X','25':'X','26':'S','27':'S','28':'S','29':'M','30':'M','31':'M','32':'L','33':'L','34':'X','35':'X','36':'X','37':'X'}
 wShoes={'36':'S','37':'S','38':'M','39':'M','40':'L','41':'L','42':'X','43':'X'}
 
-#Initial the dictionary for each new PageURL data for a product and convert the values into a appropriate formate
+#Initial the dictionary for each new PageURL for a unique product and convert the values into a appropriate formate
 
 def init(value):
     urlDict['pageValue'] = float(value[0])
@@ -30,8 +33,9 @@ def init(value):
     urlDict["exits"] = int(value[8])
     urlDict["exitRate"] = float(value[9])
 
-# Each product can have multiple path and Google Analytic store each path information as a new record even though it's a same product.
+#Each product can have multiple path and Google Analytic store each path information as a new record even though it's a same product.
 #This function add multiple path infromation into a single record for a unique product
+
 def addValue(value):
     urlDict['pageValue'] += float(value[0])
     urlDict["pageViews"] += int(value[1])
@@ -44,7 +48,8 @@ def addValue(value):
     urlDict["exits"] += int(value[8])
     urlDict["exitRate"] += float(value[9])
 
-#Fetching the data from the Google Analytic API using a parameter PageURL and stroing the data in a database
+#Receive the response object from the Google Analytic API for a parameter product page URL, extract the relevant the data and store it in a database
+
 def urlData(analyticsReproting,idList):
     oldId=0
     response = h.apiData.urlData(analyticsReproting, "0")
@@ -83,7 +88,8 @@ def urlData(analyticsReproting,idList):
                         print("duplicate issues", e)
         response = h.apiData.urlData(analyticsReproting, response['reports'][0]['nextPageToken'])
 
-#Fetching the data from the Google Analytic API using a parameter Product Size SKU and stroing the data in a database
+#Receive the response object from the Google Analytic API for a parameter Product Size SKU, extract the relevant the data and store it in a database
+
 def skuData(analyticsReporting,skuList):
     # Google Analytics API Data for a product
     print('sku also fine')
@@ -105,7 +111,8 @@ def skuData(analyticsReporting,skuList):
     except Exception as e:
         print("Data Not available for sku")
 
-#Scraping the product data from the retailer website and stroing the data in a database
+#Scraping the product data from the client website and stroing the data in a database
+
 def productInfo(bsObj,url,skuList):
     try:
         #print(cur)
