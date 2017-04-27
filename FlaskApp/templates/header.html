@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashborad</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename= 'assets/lib/bootstrap/dist/css/bootstrap.min.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename= 'assets/css/keen-dashboards.css')}}" />
+</head>
+<body class="application">
+	<div class="container-fluid">
+	  	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	      <div class="navbar-collapse collapse">
+	        <ul class="nav navbar-nav navbar-left">
+	          <li><a href="/category-based-analysis/">Category_Level_Analysis</a></li>
+	          <li><a href="/brand-based-analysis/">Brand_Level_Analysis</a></li>
+	          <li><a href="/product-based-analysis/">Product_Analysis</a></li>
+	          <li><a href="/api-based-analysis/">Api_Based_Analysis</a></li>
+	        </ul>
+	      </div>
+	    </div>
+
+    {% block body %}   {% endblock %}
+
+  <script type="text/javascript" src="{{url_for('static', filename= 'assets/lib/jquery/dist/jquery.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename= 'assets/lib/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+
+  <script type="text/javascript" src="{{url_for('static', filename= 'assets/lib/holderjs/holder.js')}}"></script>
+  <script>
+    Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });
+  </script>
+
+  <script type="text/javascript" src="{{url_for('static', filename= 'assets/lib/keen-js/dist/keen.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename= 'assets/js/meta.js')}}"></script>
+
+
+  </div>
+
+  
+
+ 
+
+ 
+</body>
+</html>
